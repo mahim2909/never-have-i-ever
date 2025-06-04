@@ -26,13 +26,13 @@ body {
 .game-container {
     max-width: 1200px;
     padding: 20px;
-    margin-bottom: 150px; /* Add space at the bottom */
+    margin-bottom: 10px; /* Add space at the bottom */
 }
 
 /* Responsive adjustments for smaller screens */
 @media (max-width: 767px) {
     .game-container {
-        margin-bottom: 200px; /* More space on mobile */
+        margin-bottom: 10px; /* More space on mobile */
     }
     
     .multiplayer-info {
@@ -351,8 +351,7 @@ body {
 
 /* Multiplayer Information */
 .multiplayer-info {
-    position: fixed;
-    bottom: 40px;
+    position: static;
     left: 0;
     width: 100%;
     text-align: center;
@@ -407,8 +406,7 @@ body {
 
 /* Developer Credit - Update position to be below multiplayer info */
 .developer-credit {
-    position: fixed;
-    bottom: 10px;
+    position: static;
     left: 0;
     width: 100%;
     text-align: center;
